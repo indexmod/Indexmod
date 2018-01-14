@@ -1,5 +1,5 @@
 ---
-title: Indexmod Alterpedia
+title: Indexmod Encyclopedia
 timezone: UTC
 collections:
   posts:
@@ -8,16 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: false
-description: Indexmod Alterpedia — is an alternative wiki encyclopedia with pretty
-  syntax
-include:
-- ".htaccess"
+description: Indexmod Encyclopedia — is an alternative wiki with pretty syntax
+include: ".htaccess"
 show_sidebar: false
 show_downloads: false
 show_title: false
 show_description: false
-google_analytics: 'UA-111762431-1
-
-'
+google_analytics: 'UA-111762431-1'
+site_repo: indexmod
+site_branch: master
 theme: jekyll-theme-minimal
+<<<<<<< HEAD
 gem: [jekyll-admin]
+=======
+exclude: [404.md]
+
+
+>>>>>>> ea3ae94b595982fd2213b753b45deeb65abf744d
