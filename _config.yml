@@ -20,3 +20,4 @@ google_analytics: 'UA-111762431-1
 
 '
 theme: jekyll-theme-minimal
+gem: [jekyll-admin]
