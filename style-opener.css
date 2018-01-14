@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(105deg, #1f594a, #070808, #3b7575, #753b74);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    -o-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 100px;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 1 1 1 1;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 600;
+}
+
+
+.message
+
+{  
+    font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: white;
+    padding: 16px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}

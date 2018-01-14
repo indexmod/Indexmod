@@ -1,0 +1,212 @@
+
+
+.likebtn-wrapper
+
+{   
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    line-height: 1.7em;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#wrapper {
+    width: 100%;
+    min-width: 100px;
+    max-width: 700px;
+    margin: 0px auto;
+    padding: 1 1 1 1;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 600;
+}
+
+.see-also
+
+{
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Georgia', serif;
+    font-weight: 900;
+}
+
+
+
+/* unvisited link */
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+/* visited link */
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+/* mouse over link */
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+/* selected link */
+
+a:active {
+    color: green;
+    text-decoration: underline;
+}
+table {
+    width: 98%;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    background-color: transparent;
+    color: green;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5em;
+    font-weight: 900;
+    cursor: default;
+}
+
+td {
+    padding: 0px;
+    text-align: left;
+    border-bottom: 0px solid white;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+
+
+img {
+    
+
+    max-width: 50%;
+    min-width: 5%;
+    height: auto;
+    margin: 1em 0em 0em 0em;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    
+}
+
+
+
+.caption {
+    
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 150%;
+
+}
+
+
+
+.footnote
+
+{  
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: green;
+
+}
+
+.message
+
+{  
+    font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: white;
+    padding: 16px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+
+    
+
+}
+
+.warning
+
+{
+    
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.7em;
+    font-weight: 900;
+
+}
+
+
+.date-year
+
+{
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 600;
+    box-shadow: 2px 0 0 black, -2px 0 0 black;
+    padding: 1px 3px;
+    letter-spacing: 2px;
+}
+
+.highlight {
+  
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 600;
+    box-shadow: 2px 0 0 black, -2px 0 0 black;
+    padding: 1px 3px;
+    letter-spacing: 2px;
+}
+
+.footer {
+  
+    color: green;
+    background: #DBFFE8;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 300;
+    box-shadow: 2px 0 0 #DBFFE8, -2px 0 0 #DBFFE8;
+    padding: 1px 3px;
+    letter-spacing: 2px;
+}
+
+
