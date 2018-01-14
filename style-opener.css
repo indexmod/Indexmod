@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(105deg, #1f594a, #070808, #3b7575, #753b74);
+    background: linear-gradient(90deg, red, black, yellow, green, lilac, pink, orange, white, lime, grey, violet);
     background-size: 800% 800%;
     -webkit-animation: AnimationName 59s ease infinite;
     -moz-animation: AnimationName 59s ease infinite;
@@ -87,3 +87,13 @@ p {
     border-color: white;
     border-width: 3px;
 }
+
+img
+
+{
+    position: center;
+    align: middle;
+    margin: 0px auto;
+    padding: 1 1 1 1;
+}
+
