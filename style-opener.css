@@ -15,10 +15,6 @@
     width: 8em
 }
 
-
-
-
-
 @-moz-keyframes pulse {
  0% {
 	-moz-transform: scale(0);
@@ -65,12 +61,12 @@
 }
 
 body {
-    background: linear-gradient(0deg, blue, white, red, black);
+    background: linear-gradient(0deg, grey, black);
     background-size: 400% 400%;
-    -webkit-animation: Opener 60s ease infinite;
-    -moz-animation: Opener 60s ease infinite;
-    -o-animation: Opener 60s ease infinite;
-    animation: Opener 60s ease infinite;
+    -webkit-animation: Opener 10s ease infinite;
+    -moz-animation: Opener 10s ease infinite;
+    -o-animation: Opener 10s ease infinite;
+    animation: Opener 10s ease infinite;
 
 }
 @-webkit-keyframes Opener {
