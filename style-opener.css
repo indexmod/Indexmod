@@ -4,112 +4,13 @@
     vertical-align: middle;
 }
 
-.message {
-    text-align: center;
-    vertical-align: middle;
-    font-family: "Georgia", Times, serif;
-    font-size: 30px;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
 }
 
-@-moz-keyframes pulse {
- 0% {
-	-moz-transform: scale(0);
-	opacity: 0.0;
- }
- 25% {
-	-moz-transform: scale(0);
-	opacity: 0.1;
- }
- 50% {
-	-moz-transform: scale(0.1);
-	opacity: 0.3;
- }
- 75% {
-	-moz-transform: scale(0.5);
-	opacity: 0.5;
- }
- 100% {
-	-moz-transform: scale(1);
-	opacity: 0.0;
- }
-}
-@-webkit-keyframes "pulse" {
- 0% {
-	-webkit-transform: scale(0);
-	opacity: 0.0;
- }
- 25% {
-	-webkit-transform: scale(0);
-	opacity: 0.1;
- }
- 50% {
-	-webkit-transform: scale(0.1);
-	opacity: 0.3;
- }
- 75% {
-	-webkit-transform: scale(0.5);
-	opacity: 0.5;
- }
- 100% {
-	-webkit-transform: scale(1);
-	opacity: 0.0;
- }
-}
 
-body {
-    background: linear-gradient(0deg, grey, black);
-    background-size: 400% 400%;
-    -webkit-animation: Opener 10s ease infinite;
-    -moz-animation: Opener 10s ease infinite;
-    -o-animation: Opener 10s ease infinite;
-    animation: Opener 10s ease infinite;
 
-}
-@-webkit-keyframes Opener {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@-moz-keyframes Opener {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@-o-keyframes Opener {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@keyframes Opener {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
