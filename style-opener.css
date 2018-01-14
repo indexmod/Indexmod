@@ -1,99 +1,119 @@
-body {
-    background: linear-gradient(90deg, red, black, yellow, green, lilac, pink, orange, white, lime, grey, violet);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 59s ease infinite;
-    -moz-animation: AnimationName 59s ease infinite;
-    -o-animation: AnimationName 59s ease infinite;
-    animation: AnimationName 59s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@-o-keyframes AnimationName {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-@keyframes AnimationName {
-    0% {
-        background-position: 0% 34%
-    }
-    50% {
-        background-position: 100% 67%
-    }
-    100% {
-        background-position: 0% 34%
-    }
-}
-
 #wrapper {
-    width: 100%;
-    min-width: 100px;
-    max-width: 700px;
-    margin: 0px auto;
-    padding: 1 1 1 1;
+    align: center;
+
+    vertical-align: middle;
 }
 
-h1 {
-    font-family: 'Georgia', serif;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 1.5em;
-}
-
-p {
-    font-family: 'Georgia', serif;
-    font-size: 18px;
-    line-height: 1.7em;
-    font-weight: 600;
+.message {
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Georgia", Times, serif;
+    font-size: 30px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
 }
 
 
-.message
 
-{  
-    font-size: 25px;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 300;
-    line-height: 1.5em;
-    color: white;
-    padding: 16px;
-    border-style: solid;
-    border-color: white;
-    border-width: 3px;
+
+
+@-moz-keyframes pulse {
+ 0% {
+	-moz-transform: scale(0);
+	opacity: 0.0;
+ }
+ 25% {
+	-moz-transform: scale(0);
+	opacity: 0.1;
+ }
+ 50% {
+	-moz-transform: scale(0.1);
+	opacity: 0.3;
+ }
+ 75% {
+	-moz-transform: scale(0.5);
+	opacity: 0.5;
+ }
+ 100% {
+	-moz-transform: scale(1);
+	opacity: 0.0;
+ }
+}
+@-webkit-keyframes "pulse" {
+ 0% {
+	-webkit-transform: scale(0);
+	opacity: 0.0;
+ }
+ 25% {
+	-webkit-transform: scale(0);
+	opacity: 0.1;
+ }
+ 50% {
+	-webkit-transform: scale(0.1);
+	opacity: 0.3;
+ }
+ 75% {
+	-webkit-transform: scale(0.5);
+	opacity: 0.5;
+ }
+ 100% {
+	-webkit-transform: scale(1);
+	opacity: 0.0;
+ }
 }
 
-img
+body {
+    background: linear-gradient(0deg, blue, white, red, black);
+    background-size: 400% 400%;
+    -webkit-animation: Opener 60s ease infinite;
+    -moz-animation: Opener 60s ease infinite;
+    -o-animation: Opener 60s ease infinite;
+    animation: Opener 60s ease infinite;
 
-{
-    position: center;
-    align: middle;
-    margin: 0px auto;
-    padding: 1 1 1 1;
 }
-
+@-webkit-keyframes Opener {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@-moz-keyframes Opener {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@-o-keyframes Opener {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
+@keyframes Opener {
+    0% {
+        background-position: 0% 34%
+    }
+    50% {
+        background-position: 100% 67%
+    }
+    100% {
+        background-position: 0% 34%
+    }
+}
