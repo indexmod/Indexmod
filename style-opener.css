@@ -1,11 +1,11 @@
 #wrapper {
     align: center;
-
     vertical-align: middle;
 }
 
 #myVideo {
     position: fixed;
+    object-fit: scale-down;
     right: 0;
     bottom: 0;
     min-width: 100%; 
