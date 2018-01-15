@@ -3,8 +3,11 @@
     vertical-align: middle;
 }
 
-#myVideo {
-    position: fixed;
+#video {
+    
+    display: block;
+    margin: 0 auto;
+    position: auto;
     object-fit: cover;
     right: 0;
     bottom: 0;
