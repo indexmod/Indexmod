@@ -5,7 +5,7 @@
 
 #myVideo {
     position: fixed;
-    object-fit: scale-down;
+    object-fit: cover;
     right: 0;
     bottom: 0;
     min-width: 100%; 
