@@ -1,4 +1,3 @@
-# Hello!
-This is landing page for Indexmod Encyclopedia
+# This is landing page for Indexmod Encyclopedia in 2018
 ---
-Enter site [here](https://indexmod.github.io/encyclopedia/index)
+Follow this link to enter site [here](https://indexmod.github.io/encyclopedia/index)
