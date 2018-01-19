@@ -16,6 +16,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
+    opacity: 70%;
 }
 
 .background {
@@ -24,7 +25,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url(background-image.jpg) center;
+  background: url(https://c.pxhere.com/photos/50/21/nightphotography_stars_milkywaydeathvalleynightsky-155477.jpg) center;
   background-size: cover;
 }
 
